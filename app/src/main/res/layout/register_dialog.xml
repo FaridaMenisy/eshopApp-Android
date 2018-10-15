@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text ="Registeration"
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_txt"
+        android:hint = "Username"
+        android:ems="10"
+        android:focusable="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:shadowColor="#000000"
+        android:padding="10dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_txt2"
+        android:ems="10"
+        android:hint = "Password"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_txt3"
+        android:hint = "Confrim Password"
+        android:color="#fc1919"
+        android:focusable="true"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/register_btn"
+        android:ems="10"
+        android:text="SignUp"
+        android:textColor="#ffffff"
+        android:background="#fc1919"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/register_txt4"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:onClick="dialog"
+        android:text="Already registered? Login"/>
+
+</LinearLayout>

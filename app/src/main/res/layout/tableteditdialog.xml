@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/txtviewtabletname"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittxttabletnme"
+        android:layout_alignLeft="@+id/txtviewtabletname"
+        android:layout_alignStart="@+id/txtviewtabletname"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+
+
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/txtviewtabletprice"
+        android:layout_below="@+id/txtviewtabletname"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/edittxttabletprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtviewtabletprice"
+        android:layout_alignStart="@+id/txtviewtabletprice"
+        android:layout_below="@+id/edittxttabletnme"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/txtviewtabletcolor"
+        android:layout_below="@+id/txtviewtabletprice"
+        android:layout_marginTop="25dp"
+        />
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittexttabletcolor"
+        android:layout_alignLeft="@+id/txtviewtabletcolor"
+        android:layout_alignStart="@+id/txtviewtabletcolor"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@+id/edittxttabletprice"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capcity"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtviewtabletcapacity"
+        android:layout_below="@+id/txtviewtabletcolor"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittxttabletcapacity"
+        android:layout_alignLeft="@+id/txtviewtabletcapacity"
+        android:layout_alignStart="@+id/txtviewtabletcapacity"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/edittexttabletcolor"
+        android:layout_marginTop="-10dp"
+        />
+        />
+
+
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/edittexttabletphoto"-->
+        <!--android:layout_alignLeft="@+id/txtviewtabletphoto"-->
+        <!--android:layout_alignStart="@+id/txtviewtabletphoto"-->
+        <!--android:layout_marginLeft="90dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_below="@+id/edittxttabletcapacity"-->
+
+        <!--/>-->
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Installment"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/addplan"
+
+        android:layout_below="@+id/txtviewtabletcapacity"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edttxtaddplan"
+        android:layout_alignLeft="@+id/addplan"
+        android:layout_alignStart="@+id/addplan"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/edittxttabletcapacity"
+
+        />
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+     android:layout_marginTop="25dp"
+        android:id="@+id/adddurat"
+        android:layout_below="@+id/addplan"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edttxtadddurat"
+        android:layout_alignLeft="@+id/adddurat"
+        android:layout_alignStart="@+id/adddurat"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/edttxtaddplan"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Photo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtviewtabletphoto"
+        android:layout_below="@+id/adddurat"
+        android:layout_marginBottom="60dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgtablet"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/attach"
+        android:text="Attach"
+        android:background="#fc1919"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtviewtabletphoto"
+
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sumbitedit"
+        android:text="save"
+        android:background="#646262"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/attach"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+</RelativeLayout>

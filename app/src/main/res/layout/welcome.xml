@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fc1919"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/user"
+            android:text= "Welcome "
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="60dp"
+            android:textSize="25dp"
+
+            />
+
+
+    </FrameLayout>
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text = "Vodafone Shop"
+    android:textSize="20dp"
+    android:layout_gravity="center"
+    />
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:padding="10dp"
+
+    >
+
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/redlines"
+            android:layout_column="1"
+            android:clickable="true"
+            android:onClick="click"
+
+
+            />
+
+
+
+
+        <ImageView
+            android:id="@+id/tabletimg2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/images"
+            android:layout_column="2"
+            android:onClick="click"
+            android:clickable="true"
+            >
+
+        </ImageView>
+
+
+
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Smartphones"
+            android:id="@+id/phones"
+            android:onClick="click"
+            android:gravity="center"
+            android:layout_column="1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Tablets"
+            android:id="@+id/tablets"
+            android:layout_column="2"
+            android:onClick="click"
+            android:gravity="center" />
+
+
+
+
+
+    </TableRow>
+
+
+
+
+
+
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/acc"
+            android:layout_column="1"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_column="2"
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/mbb">
+
+        </ImageView>
+
+
+
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Accessories"
+            android:gravity="center"
+            android:id="@+id/acc"
+            android:layout_column="1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Internet Services"
+            android:id="@+id/internet"
+            android:gravity="center"
+            android:layout_column="2"/>
+
+
+
+
+
+    </TableRow>
+
+</TableLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgs"
+
+        />
+
+
+</LinearLayout>

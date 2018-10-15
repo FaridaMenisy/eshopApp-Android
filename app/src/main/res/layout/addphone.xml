@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addphonename"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone color"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addphonecolor"
+        android:padding="10dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone price"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addphoneprice"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone brand"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addphonebrand"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="photo"/>
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/addphonephoto"-->
+        <!--android:padding="10dp"/>-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgView"
+        android:layout_alignLeft="@+id/addphonephoto"
+        android:layout_alignStart="@+id/addphonephoto"
+        android:layout_marginLeft="100dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/attachphoto"
+        android:text="attach"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="#605f5f"
+        android:layout_marginTop="20dp"/>
+
+
+
+         <Button
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:text="submit"
+             android:id="@+id/submit"
+             android:layout_gravity="center"
+             android:layout_marginTop="10dp"
+             android:textColor="#fff"
+             android:background="#fc1919"
+             android:layout_alignLeft="@+id/attachphoto"
+             android:layout_alignStart="@+id/attachphoto"
+             />
+</LinearLayout>

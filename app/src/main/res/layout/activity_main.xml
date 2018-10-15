@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:text="Username"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffffff"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:padding="10dp"
+        android:clickable="true"
+        android:ems="10"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:text="Passwrod"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffffff"
+
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext2"
+        android:padding="10dp"
+        android:clickable="true"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:inputType="textPassword"
+
+        />
+
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:id="@+id/checkbox"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:button="@drawable/custom_checkbox"-->
+        <!--android:text="Remeber Me!"-->
+        <!--android:ems="10"-->
+        <!--android:textColor="#ffffff"-->
+
+
+        <!--/>-->
+
+
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fc1919"
+    android:id="@+id/button"
+    android:clickable="true"
+    android:focusable="true"
+    android:text="Login"
+    android:textColor="#ffffff"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="35dp"
+
+    />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dbd6d6"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/button2"
+        android:text="Forgot Password?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:showDividers="end"
+        android:divider="@drawable/divider_drawable"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text ="Didn't Join"
+            android:textColor="#ffffff"
+            android:id="@+id/textview3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text ="Vodafone Eshop yet?"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/textview4"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fc1919"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="dialog"
+            android:text="Register"
+            android:textColor="#ffffff"
+            android:id="@+id/button3"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
